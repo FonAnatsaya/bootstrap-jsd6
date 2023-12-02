@@ -1,0 +1,12 @@
+.box {
+    background: rgb(178, 32, 115);
+    min-height: 150px;
+    width: 150px;
+}
+
+body {
+    background-color: wheat;
+    margin-top: 40px;
+    /* padding: 0 !important; */
+    height: 100vh;
+}
