@@ -31,16 +31,25 @@
       <span class="header_thickPart">Try it free 7 days</span>
       <span class="mx-1">then $20/mo. thereafter</span>
     </div>
-    <div class="bg-white d-flex flex-column gap-3 text-center p-4">
-      <input placeholder="First Name">
-      <input placeholder="Last Name">
-      <input placeholder="Email Address"> 
-      <input placeholder="Password">
-      <button class="fw-bold ">CLAIM YOUR FREE TRIAL</button>
-      <div class="">
+    <div class="bg-white d-flex flex-column gap-3 p-4">
+      <input placeholder="First Name" id="firstName">
+      <span id="alertFirstName" class="text-danger hide">error</span>
+      <input placeholder="Last Name" id="lastName">
+      <span id="alertLastName" class="text-danger hide">error</span>
+      <input placeholder="Email Address" id="email"> 
+      <span id="alertEmail" class="text-danger hide">error</span>
+      <input placeholder="Password" id="password">
+      <span id="alertPassword" class="text-danger hide">error</span>
+      <button onclick="onSubmit(document.getElementById('firstName').value, 
+      document.getElementById('lastName').value, 
+      document.getElementById('email').value, 
+      document.getElementById('password').value)" 
+      class="fw-bold ">CLAIM YOUR FREE TRIAL</button>
+      <div class="text-center">
         <span>By clicking the button you are agreeing to our </span>
         <span class="text-danger">Term and Services</span>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

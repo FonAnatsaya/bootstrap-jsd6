@@ -36,3 +36,11 @@ input{
     padding: 24px;
     border-color: lightgray;
 }
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline
+}
