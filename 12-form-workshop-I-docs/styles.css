@@ -2,6 +2,10 @@ html{
     background-color: #f28482;
 }
 
+*{
+    border-radius: 4px;
+}
+
  .container_center{
     background-color: #f28482;
     display:flex; 
@@ -12,9 +16,23 @@ html{
 
 .header{
     background-color: #5e60ce;
+    color: white;
 }
 
 .header_thickPart{
     font-weight:bold ;
 }
 
+button{
+    height: 50px;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    background-color: #00DFA2;
+}
+
+input{
+    height: 8vh;
+    padding: 24px;
+    border-color: lightgray;
+}
