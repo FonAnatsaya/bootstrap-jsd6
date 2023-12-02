@@ -1,5 +1,5 @@
 body {
-  background-color: wheat;
+  background-color: #FAD6A5;
   margin-top: 40px;
   /* padding: 0 !important; */
   height: 100vh;
@@ -16,6 +16,7 @@ body::before {
   background: black;
   padding: 10px;
 }
+
 
 @media (min-width: 576px) {
   body::before {
