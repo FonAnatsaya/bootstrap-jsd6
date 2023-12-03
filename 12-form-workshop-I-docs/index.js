@@ -6,16 +6,19 @@ function onSubmit(firstName, lastName, email, password) {
         document.getElementById('alertEmail').style.display = 'none';
         document.getElementById('alertPassword').style.display = 'none';
     } 
-    if(!firstName) {
-        document.getElementById('alertFirstName').style.display = 'inline';
+    else{
+        if(!firstName) {
+            document.getElementById('alertFirstName').style.display = 'inline';
+        }
+        if(!lastName){
+            document.getElementById('alertLastName').style.display = 'inline';
+        }
+        if(!email){
+            document.getElementById('alertEmail').style.display = 'inline';
+        }
+        if(!password){
+            document.getElementById('alertPassword').style.display = 'inline';
+        }  
+         return;
     }
-    if(!lastName){
-        document.getElementById('alertLastName').style.display = 'inline';
-    }
-    if(!email){
-        document.getElementById('alertEmail').style.display = 'inline';
-    }
-    if(!password){
-        document.getElementById('alertPassword').style.display = 'inline';
-    }   
 }
