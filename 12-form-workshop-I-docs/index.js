@@ -2,6 +2,9 @@ function onSubmit(firstName, lastName, email, password) {
     if(firstName && lastName && email && password) {
         alert("success");    
         document.getElementById('alertFirstName').style.display = 'none';  
+        document.getElementById('alertLastName').style.display = 'none';
+        document.getElementById('alertEmail').style.display = 'none';
+        document.getElementById('alertPassword').style.display = 'none';
     } 
     if(!firstName) {
         document.getElementById('alertFirstName').style.display = 'inline';
