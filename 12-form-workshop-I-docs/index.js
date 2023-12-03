@@ -1,6 +1,7 @@
 function onSubmit(firstName, lastName, email, password) {
     if(firstName && lastName && email && password) {
-        alert("success");      
+        alert("success");    
+        document.getElementById('alertFirstName').style.display = 'none';  
     } 
     if(!firstName) {
         document.getElementById('alertFirstName').style.display = 'inline';
